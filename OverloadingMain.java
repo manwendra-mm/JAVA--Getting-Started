@@ -4,6 +4,7 @@ class OverloadingMain{
     public static void main(String s[]) //This Method will be called by Default, if main method is Overloaded 
     {
         System.out.println("ENTRY POINT TO THE PROGRAM");
+        //Calling main inside main
         main(12, 12.5);
         main(15);
         main(10, 11);
